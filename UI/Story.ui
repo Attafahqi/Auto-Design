@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>603</width>
+     <height>750</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/Asset/UI Home.png);</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Exit">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>0</y>
+     <width>60</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>SF Pro Display</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 47, 47, 255));
+    color: white;
+    border-radius: 0px;</string>
+   </property>
+   <property name="text">
+    <string>X</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Posters">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>300</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:none;
+color:rgb(255, 255, 255);
+border-bottom: 2px solid rgba(255, 255, 255, 100);
+padding-bottom:7px;
+font-size: 15px;
+font-family: &quot;SF Pro Display&quot;; 
+	font-weight: bold; 
+    font-style: normal;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>Enter Posters Location</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BrowsePosters">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>300</y>
+     <width>141</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(65, 141, 237, 255), stop:1 rgba(22, 55, 229, 255));
+    color: white;
+    border-radius: 10px;
+	font-size: 20px;
+font-family: &quot;SF Pro Display&quot;; 
+	font-weight: normal; 
+    font-style: normal;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(15, 30, 180, 255), stop:1 rgba(50, 100, 200, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>250</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:none;
+color:rgb(255, 255, 255);
+font-size: 30px;
+font-family: &quot;SF Pro Display&quot;; 
+	font-weight: 100; 
+    font-style: normal;</string>
+   </property>
+   <property name="text">
+    <string>Upload Posters</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>400</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 0);
+border:none;
+color:rgb(255, 255, 255);
+font-size: 30px;
+font-family: &quot;SF Pro Display&quot;; 
+	font-weight: 100; 
+    font-style: normal;</string>
+   </property>
+   <property name="text">
+    <string>Upload Date</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="UploadDate">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>400</y>
+     <width>211</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Perpetua</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgba(0, 0, 0, 50);  
+color: rgb(255, 255, 255);  
+border: 1px solid #888888;
+border-radius: 5px; 
+padding: 2px;
+font-size: 32px;
+font-family: &quot;Perpetua&quot;; 
+font-weight: bold; 
+font-style: normal;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+   <property name="date">
+    <date>
+     <year>2024</year>
+     <month>1</month>
+     <day>1</day>
+    </date>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Generate">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>500</y>
+     <width>491</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>SF Pro Display</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(65, 141, 237, 255), stop:1 rgba(22, 55, 229, 255));
+    color: white;
+    border-radius: 10px;
+	font-size: 30px;
+font-family: &quot;SF Pro Display&quot;; 
+	font-weight: bold; 
+    font-style: normal;
+}
+
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(15, 30, 180, 255), stop:1 rgba(50, 100, 200, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>Generate</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Reset">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>570</y>
+     <width>491</width>
+     <height>60</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>SF Pro Display</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 0, 255), stop:1 rgba(255, 47, 47, 255));
+    color: white;
+    border-radius: 10px;
+	font-size: 30px;
+font-family: &quot;SF Pro Display&quot;; 
+	font-weight: bold; 
+    font-style: normal;
+}
+
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 47, 47, 255), stop:1 rgba(255, 0, 0, 255));
+}</string>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Asset/Rsc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

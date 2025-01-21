@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="Asset">
+    <file>UI Home.png</file>
+    <file>Font/perpetua-italic.otf</file>
+    <file>Font/SFPRODISPLAYBLACKITALIC.OTF</file>
+    <file>Font/SFPRODISPLAYBOLD.OTF</file>
+    <file>Font/SFPRODISPLAYHEAVYITALIC.OTF</file>
+    <file>Font/SFPRODISPLAYLIGHTITALIC.OTF</file>
+    <file>Font/SFPRODISPLAYMEDIUM.OTF</file>
+    <file>Font/SFPRODISPLAYREGULAR.OTF</file>
+    <file>Font/SFPRODISPLAYSEMIBOLDITALIC.OTF</file>
+    <file>Font/SFPRODISPLAYTHINITALIC.OTF</file>
+    <file>Font/SFPRODISPLAYULTRALIGHTITALIC.OTF</file>
+  </qresource>
+</RCC>
